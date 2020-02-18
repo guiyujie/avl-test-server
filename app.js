@@ -12,7 +12,11 @@ app.use(response)
 app.use(koajwt({
   secret: config.token.privateKey
 }).unless({
-  path: ['/api/user/login']
+  path: [
+    /\/api\/site*/,
+    /\/api\/login/,
+    /\/api\/logout/
+  ]
 }));
 // 解析请求体
 app.use(bodyparser())
