@@ -14,8 +14,8 @@ app.use(koajwt({
 }).unless({
   path: [
     /\/api\/site*/,
-    /\/api\/login/,
-    /\/api\/logout/
+    /\/api\/user\/login/,
+    /\/api\/user\/logout/
   ]
 }));
 // 解析请求体
