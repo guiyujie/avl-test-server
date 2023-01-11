@@ -23,7 +23,7 @@
     "bcrypt": "^3.0.4",
     "dayjs": "^1.8.8",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.16.5",
+    "knex": "^2.4.0",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
     "koa-jwt": "^3.6.0",
